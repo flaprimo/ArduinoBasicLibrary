@@ -10,16 +10,18 @@ Pros:
 * **non-blocking** - delay() function is not used
 * **easy to customize**
 
-Project created with [PlatformIO](http://platformio.org/)
-
 ## Installation
 Simply copy the folder of the library you are interested in and import it with `#include <NAME_OF_THE_LIBRARY.h>`.
 
 ## Usage
 
 ### Button library
-Usage example:
+Example usage of the button component with this library.
 
+#### Hardware
+![Arduino Button Library](http://www.flavioprimo.xyz/wp-content/uploads/2016/12/button_library.png)
+
+#### Software
 ```C
 #include "Arduino.h"
 #include <Button.h>
@@ -46,8 +48,12 @@ void loop()
 ```
 
 ### Potentiometer library
-Usage example:
+Example usage of the potentiometer component with this library.
 
+#### Hardware
+![Arduino Potentiometer Library](http://www.flavioprimo.xyz/wp-content/uploads/2016/12/potentiometer_library.png)
+
+#### Software
 ```C
 #include "Arduino.h"
 #include <Potentiometer.h>
@@ -70,8 +76,12 @@ void loop()
 ```
 
 ### Led library
-Usage example:
+Example usage of the led component with this library.
 
+#### Hardware
+![Arduino Led Library](http://www.flavioprimo.xyz/wp-content/uploads/2016/12/led_library.png)
+
+#### Software
 ```C
 #include "Arduino.h"
 #include <Led.h>
