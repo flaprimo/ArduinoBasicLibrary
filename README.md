@@ -86,7 +86,7 @@ Example usage of the led component with this library.
 #include "Arduino.h"
 #include <Led.h>
 
-Led led;
+Led led(2);
 
 void setup() {
 }
